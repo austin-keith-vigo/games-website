@@ -1,11 +1,25 @@
 import React from 'react';
 
-function App() {
+// Redux imports
+import { connect } from 'react-redux';
+
+// Components
+import { 
+  HelloWorldLabel,
+  ChangeLabelButton
+} from './Components';
+
+const App = () => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <HelloWorldLabel/>
+      <ChangeLabelButton/>
     </div>
   );
+}
+
+const buttonPressed = () => {
+  console.log("Test");
 }
 
 export default App;
