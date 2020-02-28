@@ -1,0 +1,3 @@
+export {
+    changeLabelColor
+} from './testAction';
