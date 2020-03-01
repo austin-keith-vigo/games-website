@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 // // To create a socket that connects client to the server
-//import socketIOClient from "socket.io-client";
 import io from 'socket.io-client';
 
 // Redux imports
