@@ -1,3 +1,3 @@
 export {
-    changeLabelColor
-} from './testAction';
+    setUsername
+} from './mainActions';

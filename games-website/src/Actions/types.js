@@ -1,1 +1,1 @@
-export const TEST_ACTION = 'testAction';
+export const SET_USERNAME = 'setUsername';

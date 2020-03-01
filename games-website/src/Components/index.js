@@ -1,7 +1,5 @@
-import HelloWorldLabel from './HelloWorldLabel';
-import ChangeLabelButton from './ChangeLabelButton';
+import ConnectFour from './ConnectFour';
 
 export {
-    HelloWorldLabel,
-    ChangeLabelButton
+    ConnectFour
 };
