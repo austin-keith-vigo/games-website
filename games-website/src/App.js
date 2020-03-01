@@ -15,6 +15,7 @@ import {
 
 class App extends Component {
 
+  // Conditional rendering to only render game once username has been recieved
   renderConnectFour() {
     if(this.props.username != null) {
       return <ConnectFour/>;
