@@ -29,9 +29,10 @@ class App extends Component {
     socket.emit('newUser');
 
     // Set the username to the redux store
-    socket.on('getUsername', function(data) {
+    socket.on('getUsernameAndBoard', function(data) {
       props.setUsername(data.username);
-      socket.removeListener('getUsername');
+      console.log(data);
+      socket.removeListener('getUsernameAndBoard');
     })
   }
 
